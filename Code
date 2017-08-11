@@ -1,5 +1,8 @@
- setwd("/Users/jeevarehakrishnaraj/Desktop/Springboard/Project 2/")
- titanic_original <- read.csv("titanic_original.csv")
+ 
+ data_dir <- "/Users/jeevarehakrishnaraj/Desktop/Springboard/Project 2/"
+ 
+ titanic_original <- read.csv(file.path(data_dir,"titanic_original.csv"),header = TRUE)
+ 
  colnames(titanic_original)
  titanic_original$embarked
  library(dplyr)
