@@ -20,3 +20,9 @@ You notice that many passengers don’t have a cabin number associated with them
 
 #### Submit the project on Github
 Include your code, the original data as a CSV file titanic_original.csv, and the cleaned up data as a CSV file called titanic_clean.csv.
+
+
+#### Packages used
+1. magrittr
+2. dplyr
+3. tidyr
