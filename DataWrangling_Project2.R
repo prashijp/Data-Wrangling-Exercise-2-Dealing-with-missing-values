@@ -1,6 +1,6 @@
 
 ### Load the dataset
-data_dir <- "/Users/jeevarehakrishnaraj/Desktop/Springboard/Project 2/Project2"
+data_dir <- "~/Desktop/Springboard/Project 2/Project2"
 titanic_original <- read.csv(file.path (data_dir, "titanic_original.csv" ), header = TRUE)
 
 colnames(titanic_original)
